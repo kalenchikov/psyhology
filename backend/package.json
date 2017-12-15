@@ -1,0 +1,31 @@
+{
+  "name": "psyhology-backend",
+  "version": "1.0.0",
+  "description": "Website for professional psychologists and their clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Alenchikov Konstantin",
+  "license": "MIT",
+  "_moduleAliases": {
+    "@root": ".",
+    "@MODELS": "./app/models",
+    "@SETUP": "./app/setup",
+    "@API": "./config/app.js",
+    "@CONFIG": "./config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "module-alias": "^2.0.3",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
